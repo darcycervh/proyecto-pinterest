@@ -1,8 +1,43 @@
-#js{
-    margin: auto;
+header{
+    outline: 1px solid blue;
     
 }
-.icon-pinterest{
-    position: relative;
-    left: 10px;
+ul{
+    
+    list-style: none;
+    
 }
+img{
+    outline: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+li div span{
+    outline: 1px solid gold;
+}
+.box-input{
+    outline: 2px solid gray;
+}
+#icons{
+    display: inline-block;
+}
+.icon-magnifier{
+    outline: 1px solid palevioletred;
+}
+.icon-cancel{
+    outline: 2px solid orangered;
+}
+.icon-checkmark{
+    outline: 2px solid magenta;
+}
+.icon-user{
+    outline: 2px solid orange;
+}
+.icon-list{
+    outline: 2px solid maroon;
+}
+.icon-chat{
+    outline: 2px solid mediumspringgreen;
+}
+
+

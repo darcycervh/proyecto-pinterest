@@ -10,7 +10,11 @@ header{
 ul{
     
     list-style: none;
-    
+    border-radius: 10px;
+}
+header{
+    /*outline: 1px solid blue;*/
+    height: 45px;
 }
 img{
     /*outline: 1px solid black;*/
@@ -19,9 +23,7 @@ img{
     margin-left: 32px;
     margin-right: 26px;
 }
-/*li div span{
-    outline: 1px solid gold;
-}*/
+
 .box-input{
     /*outline: 2px solid magenta;*/
     background: #efefef;
@@ -108,4 +110,57 @@ a{
 }
 */
 
+.options li{
+    /*outline: 1px solid black;*/
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    left: 65px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
 
+/*Estableciendo colores de fondo para la barra de opciones*/
+.box-1{
+    background: #735f50;
+}
+.box-2{
+    background: #ab8b6f;
+}
+.box-3{
+    background: #897662;
+}
+.box-4{
+    background: #917155;
+}
+.box-5{
+    background: #969450;
+}
+.box-6{
+    background: #82745c;
+}
+.box-7{
+    background: #938178;
+}
+.box-8{
+    background: #9d795e;
+}
+.box-9{
+    background: #9d795e;
+}
+body section img{
+    /*outline: 1px solid blue;*/
+    float: left;
+    height: auto;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+section{
+   /* outline: 2px solid black;*/
+    padding: 0;
+}

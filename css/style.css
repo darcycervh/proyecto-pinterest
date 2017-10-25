@@ -1,6 +1,11 @@
-header{
-    outline: 1px solid blue;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
     
+}
+header{
+    /*outline: 1px solid blue;*/
+    height: 45px;
 }
 ul{
     
@@ -8,30 +13,92 @@ ul{
     
 }
 img{
-    outline: 1px solid black;
-    width: 30px;
-    height: 30px;
+    /*outline: 1px solid black;*/
+    width: 39px;
+    height: 39px;
+    margin-left: 32px;
+    margin-right: 26px;
 }
-li div span{
+/*li div span{
     outline: 1px solid gold;
-}
+}*/
 .box-input{
-    outline: 2px solid gray;
+    /*outline: 2px solid magenta;*/
+    background: #efefef;
+    border-radius: 5px;
+    width: 927px;
+    height: 28px;
+    position: relative;
+    top: -42px;
+    left: 116px;
+    padding-bottom: 10px;
 }
+/*aqui quiero tomar solo la caja del input de acuerdo */
+input[placeholder]{
+    /*outline: 1px solid springgreen;*/
+    border: none;
+    background: #efefef; 
+    position: relative;
+    bottom: 2px;
+    
+}
+/*aquí quiero agarrar solo el texto dentro del input*/
+input[type]{
+    font-size: 20px;
+}
+/*el id: icons toma las caracteristicas que tienen por igual todos los iconos en la pagina en la parte del header*/
 #icons{
     display: inline-block;
+    font-size: 20px;
+    position: relative;
 }
 .icon-magnifier{
-    outline: 1px solid palevioletred;
+    /*outline: 1px solid palevioletred;*/
+    margin-left: 54px;
+    margin-top: 7px; 
+}
+.box-input div{
+    /*outline: 1px solid firebrick;*/
+
+
 }
 .icon-cancel{
-    outline: 2px solid orangered;
+    /*outline: 2px solid orangered;*/
+    top: 1px;
+    left: 450px;
+}
+
+.box-input p{
+    /*outline: 1px solid black;*/
+    display: inline;
+    position: relative;
+    left: 455px;
+    top: -2px;
+    font-weight: bold;
+
 }
 .icon-checkmark{
-    outline: 2px solid magenta;
+    /*outline: 2px solid magenta;*/
+    left: 460px;
+    top: 1px;
 }
+a{
+    text-decoration: none;
+    color: #b5b5b5;
+    margin-right: 10px;
+    
+}
+.box-icons2 li{
+   /* outline: 1px solid firebrick;*/
+    display: inline;
+    position: relative;
+    top: -70px;
+    font-size: 20px;
+    left: 1080px;
+    
+}/*
 .icon-user{
-    outline: 2px solid orange;
+    outline: 2px solid orange;  
 }
 .icon-list{
     outline: 2px solid maroon;
@@ -39,5 +106,6 @@ li div span{
 .icon-chat{
     outline: 2px solid mediumspringgreen;
 }
+*/
 
 
